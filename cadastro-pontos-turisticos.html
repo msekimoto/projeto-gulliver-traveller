@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro de Pontos Turisticos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <form method="post" action="" id="ponto-turistico" name="ponto-turistico" autocomplete="off">
+        <h1 class="titulo">Cadastro de Ponto Turistico</h1>
+        <div>
+            <label>
+              <input type="text" class="text" name="responsavel" placeholder="Exemplo: João da Costa" tabindex="1" required />
+              <span class="required">Seu Nome:</span>
+            </label>
+        </div>
+        <div>
+            <label>
+              <input type="email" class="text" name="email" placeholder="Exemplo: joao.costa@gmail.com" tabindex="2" required />
+              <span class="required">Seu Email:</span>
+            </label>
+        </div>
+        <div>
+          <label>
+            <input type="text" class="text" name="nome" placeholder="Exemplo: Parque Ecológico" tabindex="3" required />
+            <span class="required">Nome do Ponto Turistico:</span>
+          </label>
+        </div>     
+        <div>
+            <label>
+              <span class="required">Estado:</span>
+            </label>
+            <select id="estado" name="estado"  placeholder="Exemplo: São Paulo" tabindex="4" required>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>        
+        </div>   
+        <div>
+            <label>
+              <input type="text" class="text" name="cidade" placeholder="Exemplo: Idaiatuba" tabindex="5" required />
+              <span class="required">Cidade:</span>
+            </label>
+        </div>          
+        <div>
+            <label>
+              <input type="text" class="text" name="localizacao" placeholder="Exemplo: Av. Eng. Fábio Roberto Barnabé, 504" tabindex="6" required />
+              <span class="required">Rua:</span>
+            </label>
+        </div>              
+        <div>
+            <label>
+              <input type="text" class="text" name="funcionamento" placeholder="Exemplo: Aberto 24 horas" tabindex="7" required />
+              <span class="required">Horario de Funcionamento:</span>
+            </label>
+        </div>
+        <div>
+            <label>
+              <input type="text" class="text" name="entrada" placeholder="Exemplo: Gratuita" tabindex="8" required />
+              <span class="required">Entrada:</span>
+            </label>
+        </div>
+        <div>
+            <label>
+              <span class="required">Descrição:</span>
+            </label>
+            <textarea rows="5" class="text" name="descricao" placeholder="Exemplo: O Parque Ecológico, projeto do arquiteto e urbanista Ruy Ohtake, foi inaugurado em 1992 e hoje corta a cidade em 80% da sua totalidade. São 15 quilômetros de pistas de caminhadas, cooper e ciclovias." tabindex="9" required></textarea>
+        </div>                         
+        <input type="submit" value="Cadastrar" tabindex="10"/>
+    </form>
+</body>
+</html>
