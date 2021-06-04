@@ -464,6 +464,7 @@ button.collapse{
 	background: #ddd;
 	cursor: pointer;
 	transition: background 0.2s linear;
+	display: block !important;
 }
 button.collapse::after{
 	content: '\f067';
