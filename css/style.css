@@ -77,18 +77,41 @@ nav{
 	width: 100%;
 	height: auto;
 	color: #fff;
-	z-index: 999;
+    z-index: 999;
 }
+.bg-light{
+	background-color: #11273e !important;
+}
+.navbar-brand{
+	color: #fff !important;
+}
+.nav-link{
+	color: #fff !important;
+}	
+.navbar-light .navbar-toggler  {
+	background-color: #112233 !important;
+}
+	
 .upper_navbar{
 	background-color: #112255; 
 }
-.upper_navbar .logo{
+.logo{
+	position: fixed;
 	float: right;
-	height: 100px;
 	padding: 5px 10px;
 	z-index: 999;
-	margin-top: 0;
+    right: 0;
+	margin-top: 200px;
 }
+
+.logo-img{
+	height: 150px;
+	width: 150px;
+	opacity: 0.3;
+	opacity: 0.3;
+}
+	
+
 .upper_navbar .logo img{
 	width: auto;
 	height: 100%;
@@ -266,7 +289,7 @@ nav{
 }
 .top-attractions-back{
 	width: 100%;
-	background: rgba(0,0,0,0.65);
+	background: #0c1926;
 }
 .top-attractions-content{
 	width: 90%;
@@ -277,7 +300,7 @@ nav{
 	width: 80%;
 	margin: 0 auto;
 	padding: 15px 0;
-	background: #06a809;
+	background: #11273e;
 	border-radius: 0 0 50px 50px;
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
 }
@@ -467,7 +490,7 @@ button.collapse:hover, button.collapse.active{
 	transition: max-height 0.2s ease-in-out;
 }
 .footer{
-	background: #112233;
+	background: #0c1926;
 }
 .footer-content{
 	width: 90%;
@@ -523,7 +546,7 @@ button.collapse:hover, button.collapse.active{
 	font-size: 13px;
 	font-family: Roboto;
 	font-weight: 300;
-	background: #112220;
+	background: #11273e;
 }
 .lower-footer-content{
 	width: 90%;
